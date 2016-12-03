@@ -1,8 +1,4 @@
-# An introduction to Generative Adversarial Networks
-
-This is the code that we used to generate our GAN 1D Gaussian approximation.
-For more information see our blog post: [http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow](http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow).
-
+# Generative Adversarial Networks for generating 1-D gaussian distribution
 ## Installing dependencies
 
 Written for Python 2.7.x.
