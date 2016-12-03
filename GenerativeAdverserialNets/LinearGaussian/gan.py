@@ -215,7 +215,7 @@ class GAN(object):
         xs = np.linspace(-self.gen.range, self.gen.range, num_points)
         bins = np.linspace(-self.gen.range, self.gen.range, num_bins)
 
-        # decision boundary
+        # decision boundary -> for any point on the number line what is the output
         db = np.zeros((num_points, 1))
         for i in range(num_points // self.batch_size):
             db[self.batch_size * i:self.batch_size * (i + 1)] = session.run(self.D1, {

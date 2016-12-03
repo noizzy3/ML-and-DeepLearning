@@ -1,0 +1,17 @@
+tf.Variable(tf.random_uniform([1],-1.0,1.0)) // 1 dimension variable b/w -1 to +1
+tf.Variable(tf.zeros([1]))
+
+loss = tf.reduce_mean(tf.square(y - y_))
+optimiser = tf.train.GradientDescentOptimizer(0.5)
+train = optimiser.minimize(loss)
+
+tf.constants([[3, 3]]) //2 cols 1 row
+tf.constants([[3], [3]]) //1 col 2 rows
+
+state = tf.Variable(0,name="counter")
+print(state.name)
+// output:- counter:0
+
+tf.assign(x, y) //assigns the value of y to x
+
+cross entropy is a loss function: to calculate the error in the calculated values
