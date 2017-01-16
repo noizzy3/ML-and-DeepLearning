@@ -77,3 +77,5 @@ class network(object):
 		z=np.zeros((10,1))
 		z[y]=1
 		return z
+
+network([784,30,10],30,10,3.0)
