@@ -1,4 +1,4 @@
-#t=love.network([784,30,10],30,10,3.0)
+#t=mlp.network([784,30,10],30,10,3.0)
 
 import random
 import cPickle
@@ -78,4 +78,4 @@ class network(object):
 		z[y]=1
 		return z
 
-network([784,30,10],30,10,3.0)
+#network([784,30,10],30,10,3.0)
